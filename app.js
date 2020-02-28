@@ -12,6 +12,6 @@ fetch('https://pokeapi.co/api/v2/pokemon/ditto/')
     data.abilities.forEach(abilities=>{
         console.log(abilities)
         let abilitdiv = document.createElement('div')
-        ablilitdiv.innerHTML = '<div class "title">' + '</div><div>'
+         abilitdiv.innerHTML = '<div class "name">' + name + '</div><div> class=abilities>' +ditto.abilities+ '</div>'
     })
     }); 
